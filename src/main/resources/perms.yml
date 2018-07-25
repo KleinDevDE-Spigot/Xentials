@@ -1,0 +1,151 @@
+Server:
+  reload: "Xentials.Server.Reload"
+    notifyReload: "Xentials.Server.Reload.Notify"
+    notifyWrongPassword: "Xentials.Server.Reload.NotifyPassword"
+  stop: "Xentials.Server.Stop"
+    notifyStop: "Xentials.Stop.Notify"
+    notifyWrongPassword: "Xentials.Server.Stop.NotifyPassword"
+  Bal:
+    own: "Xentials.Balance"
+    others: "Xentials.Balance.Others"
+  Baltop: "Xentials.Balance.Top"
+  Eco:
+    add: "Xentials.Economy.Add"
+    remove: "Xentials.Economy.Remove"
+  Info: "Xentials.Server.Info"
+  List: "Xentials.Server.List"
+Player:
+  Chat:
+    Helpop:
+      Use: "Xentials.Chat.Helpop"
+      Receive: "Xentials.Chat.Helpop.Receive"
+    Ignore: "Xentials.Chat.Ignore"
+    Msg: "Xentials.Chat.Msg"
+    Reply: "Xentials.Chat.Msg.Reply"
+    SocialSpy: "Xentials.Chat.Socialspy"
+  Homes:
+    Delhome:
+      own: "Xentials.Homes.Delete"
+      others: "Xentials.Homes.Delete.Others"
+    Home:
+      own: "Xentials.Homes.Teleport"
+      others: "Xentials.Homes.Teleport.Others"
+    Homes:
+      own: "Xentials.Homes.Homes"
+      others: "Xentials.Homes.homes.Others"
+    Listhomes: "Xentials.Homes.List"
+    Sethome:
+      own: "Xentials.Homes.Set"
+      others: "Xentials.Homes.Set.Others"
+  Inventory:
+    Clear:
+      own: "Xentials.Inventory.Clear"
+      others: "XentialsInventory.Clear.Others"
+    Enchant: "Xentials.Inventory.Enchant"
+    Enderchest:
+      own: "Xentials.Inventory.Enderchest"
+      others: "Xentials.Inventory.Enderchest.Others"
+    Hat:
+      own: "Xentials.Inventory.Hat"
+      others: "Xentials.Inventory.Hat.Others"
+    Invsee:
+      own: "Xentials.Inventory.Invsee"
+      others: "Xentials.Inventory.Invsee.Others"
+    More: "Xentials.Inventory.Item.More"
+    Repair: "Xentials.Inventory.Item.Repair"
+    Skull: "Xentials.Inventory.Skull"
+    Unlimited: "Xentials.Inventory.Item.Unlimited"
+    Powertool: "Xentials.Inventory.Powertool"
+    Workbench: "Xentials.Inventory.Workbench"
+  Movement:
+    Fly:
+      own: "Xentials.Movement.Fly"
+      other: ""
+    Froze:
+      own: ""
+      other: ""
+    Getpos:
+      own: ""
+      other: ""
+    Speed:
+      fly:
+        own: ""
+        other: ""
+      walk:
+        own: ""
+        other: ""
+  Options:
+    Exp:
+      own:
+      others:
+    Feed:
+      own: "Xentials.Command.Feed"
+      others: "Xentials.Command.Feed.Others"
+    Gamemode:
+      own:
+        survival: ""
+        creative: ""
+        adventure: ""
+        spectator: ""
+      others:
+        survival: ""
+        creative: ""
+        adventure: ""
+        spectator: ""
+    Glow:
+      own: ""
+      others: ""
+    God:
+      own: ""
+      others: ""
+    Heal:
+      own: ""
+      others: ""
+    Nick:
+      own: ""
+      others: ""
+    Vanish:
+      own: ""
+      others: ""
+  Other:
+    Afk: ""
+    Bigtree: ""
+    Book: ""
+    Break: ""
+    Compass: ""
+    Firework: ""
+    Help: ""
+    Kit: ""
+    Pay: ""
+    Ptime:
+      own: ""
+      others: ""
+    Smite:
+      own: ""
+      others: ""
+    Suicide:
+      own: ""
+      others: ""
+    Tree: ""
+World:
+  World:
+    Info: ""
+    Teleport: ""
+    Close: ""
+    Open: ""
+  Weather:
+    Clear: ""
+    Storm: ""
+    Rain: ""
+  Kill:
+    own: ""
+    others: ""
+  Killall:
+    Players: ""
+    Mobs: ""
+    Animals: ""
+    Items: ""
+  Time:
+    day: ""
+    night: ""
+    custom: ""

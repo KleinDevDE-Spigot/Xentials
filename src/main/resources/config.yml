@@ -1,0 +1,29 @@
+Modules:
+  Commands:
+    Server:
+      Reload:
+        Password: "none"
+          Notify: true
+      Stop:
+        Password: "none"
+          Notify: true
+      List:
+        OPsAreRed: false
+  CustomCommands:
+    test:
+      output:
+        - "Test erfolgreich!"
+      permission: "TestPermission"
+    info:
+      args:
+        ts:
+          - "Besuche uns auf Teamspeak!"
+          - "ts3server://XXX"
+        discord:
+          - "Besuche uns auf Discord!"
+          - "https://discord.gg/XXX"
+        twitter:
+          - "Besuche uns auf Twitter!"
+          - "https://twitter.com/XXX"
+      permission: "Info"
+      usage: "/info ts|discord|twitter"

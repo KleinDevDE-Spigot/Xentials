@@ -1,0 +1,114 @@
+Prefix: "&8[&3DeinServer&8]&f"
+General:
+  NoPermission: "%prefix% &cDu hast keine Rechte auf diesen Befehl"
+  PlayerNotFound: "%prefix% Der Spieler &3%player% &fkonnte nicht gefunden werden"
+  PlayerNotOnline: "%prefix% Der Spieler &3%player% &fist nicht online"
+  WrongArguments: "%prefix% Falsche Argumente!"
+  WrongPassword: "%prefix% &cFalsches Passwort ✘"
+  NoPlayer: "&4Du musst ein Spieler sein!"
+Commands:
+  Server:
+    #RELOAD - /reload
+    Reload:
+      Usage: "&7/reload <Passwort>"
+      NotifyWrongPassword: "&6⚠ &fDer Spieler &3%player% &fversuchte den server zu reloaden!"
+      # Message for every User
+      ServerReload1: "%prefix% &lServer reload ⌛"
+      # Message for your team members with the specific permission
+      ServerReload2: "%prefix% &lServer reload von %player% ⌛"
+      ReloadFinished: "%prefix% &aReload abgeschlossen ✔"
+    #STOP - /stop
+    Stop:
+      Usage: "&7/stop <Passwort>"
+      NotifyWrongPassword: "&6⚠ &fDer Spieler &3%player% &fversuchte den server zu stoppen"
+      KickMessage: "&3DeinServer\n\n&fServer wird heruntergefahren"
+      TeamKickMesage: "&3DeinServer\n\n&fServer wird heruntergefahren\n\n&7by %sender%"
+    Bal:
+      Usage: "%prefix% /bal (Spieler)"
+      Message: "&3{Player} &7- &f{Money}"
+    Baltop:
+      Usage: "%prefix% /baltop"
+      Messages:
+        - "&3Die 5 reichsten Spieler auf dem Server"
+        - "&31. &f{Player1} | {Money1}"
+        - "&32. &f{Player2} | {Money2}"
+        - "&33. &f{Player3} | {Money3}"
+        - "&34. &f{Player4} | {Money4}"
+        - "&35. &f{Player5} | {Money5}"
+    Economy:
+      Usage: ""
+      Add: ""
+      Remove: ""
+    Info:
+    List:
+      Header: "%count_players% von %max_players% online"
+    Time:
+  Player:
+    Chat:
+      Helpop:
+        Usage: "%prefix% /helpop <Nachricht>"
+        Messages: "&3Neue Helpop von &f%sender% \n &7%message%"
+        NobodyOnline: "Derzeit ist niemand Online der dir helfen könnte \nBitte versuche es zu einem späterem Zeitpunkt noch einmal"
+        MessageSent: "%prefix% Deine Nachricht wurde erfolgreich versendet ✔"
+      Ignore:
+      Msg:
+        Usage: "%prefix% /msg <Nachricht>"
+        Player1: "[Du -> %receiver%] %message%"
+        Player2: "[%sender% -> Du] %message%"
+      Reply:
+      Socialspy:
+    Homes:
+      Delhome:
+      Home:
+      Homes:
+      Listhomes:
+      Sethome:
+    Inventory:
+      Clear:
+      Enchant:
+      Enderchest:
+      Give:
+      Hat:
+      Invsee:
+      Item:
+      More:
+      Repair:
+      Skull:
+      Unlimited:
+      Workbench:
+    Movement:
+      Fly:
+      Frooze:
+      Getpos:
+      Speed:
+    Options:
+      Exp:
+      Feed:
+        Usage: "/feed (Player)"
+        Self: "%prefix% Du hast dich selbst gefüttert"
+        Player1: "%prefix% %player% gefüttert"
+        Player2: "%prefix% Du wurdest von %sender% gefüttert"
+      Gamemode:
+      Glow:
+      God:
+      Heal:
+      Nick:
+      Vanish:
+      Afk:
+      Bigtree:
+      Book:
+      Break:
+      Compass:
+      Firework:
+      Help:
+      Kit:
+      Pay:
+      PTime:
+      Smite:
+      Suicide:
+      Tree:
+  World:
+    Kill:
+    Killall:
+    Weather:
+    World:
